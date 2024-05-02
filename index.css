@@ -3,18 +3,58 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+body{
+  background-image: url("/desafios/image.png");
+}
 
 
 
 p{
   font-family:"Inconsolata" ;
+  text-align: center;
 }
 h2,h1{
   font-family: "roboto" ;
+  text-align: center;
+  background-image: radial-gradient(circle at 15%, #f0f8ff, #f5f5);
+  border-radius: 5px;
+  padding: 5px;
 
 }
 .bora{
   border: 1px solid black;
-  width: 250px;
+  width: 300px;
   border-radius: 5px;
+  background-image: radial-gradient(circle at 20%, #Daa520, #4b0082);
+  padding: 10px;
+}
+.center{
+  text-align: center;
+}
+.tudo{
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 5px;
+  background-image: radial-gradient(circle at 20%, #8b0000, #ffff00 );
+  padding: 10px;
+ 
+  
+}
+.junto{
+  border: 1px solid black;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  background-image: radial-gradient(circle at 50% , #b0e0e6, #b22222);
+ margin: auto;
+}
+header{
+
+ padding: 10px;
+ background-image: url("/exercicios/");
+}
+.bord{
+  display: flex ;
+  justify-content:  space-evenly;
+  padding: 20px;
 }
